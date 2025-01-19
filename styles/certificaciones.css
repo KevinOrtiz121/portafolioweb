@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Sansita;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000;
+  color:#fff;
+}
+.header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-block-end:2px solid red;
+  box-shadow: 0px 5px 10px red;
+  justify-content: space-between;
+  width:100%;
+  background: #000;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 30px;
+  margin-left: 12px;
+}
+
+.navbar ul{
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap:30px;
+  
+}
+.navbar ul li a{
+  color: #fff;
+  font-size: 25px;
+  transition: .4s;
+}
+
+.navbar ul li a:hover{
+  cursor:pointer;
+  text-decoration: underline;
+  font-size: 27px;
+}
+
+.button{
+  margin-right: 20px;
+}
+
+
+.btn{
+  width:160px;
+  padding:10px;
+  background-color: transparent;
+  border: 1.4px solid #fff;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #fff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.btn:hover{
+  box-shadow: 0 5px 20px #fff;
+  scale: 1.1;
+}
+
+.content{
+  top:90px;
+  position: relative;
+  background: ;
+  widht:100vh;
+}
+
+.title{
+  background:;
+  widht: 100%;
+  justify-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+.title h2{
+  font-size: 30px;
+  border-bottom: 3px solid red;
+}
+
+.certificados-content{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  gap:20px;
+  width:100%;
+  background:;
+  padding:20px;
+  
+}
+
+.reconocimientos-content{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  gap:20px;
+  width:100%;
+  background:;
+  padding:20px;
+  
+}
+
+.image img{
+  transition: 1s;
+  height: 330px;
+  box-shadow: 10px 10px 30px blue;
+  border-radius: 30px;
+}
+
+.image img:hover{
+  scale: 2.2;
+}
