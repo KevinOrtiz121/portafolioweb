@@ -123,4 +123,5 @@ body{
 
 .image img:hover{
   scale: 2.2;
+  z-index:200;
 }
