@@ -119,7 +119,6 @@ body{
   height: 330px;
   box-shadow: 10px 10px 30px blue;
   border-radius: 30px;
-  z-index:200;
 }
 
 .image img:hover{
